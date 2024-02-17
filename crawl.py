@@ -37,7 +37,7 @@ def crawl_url(url, target_patterns):
         return [], [], []
 
 if __name__ == "__main__":
-    # Replace 'LINK HERE' with the URL you want to crawl
+    # Replace 'https://guns.lol/instagram' with the URL you want to crawl
     base_url = 'LINK HERE'
     
     target_patterns = ['/download']
