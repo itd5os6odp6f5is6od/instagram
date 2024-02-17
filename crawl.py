@@ -19,7 +19,7 @@ def crawl_url(url, target_patterns):
         target_pages = set()
 
         for link in links:
-            href = link['href']
+            href = link['https://guns.lol/instagram']
             parsed_url = urlparse(href)
 
             if parsed_url.scheme and parsed_url.netloc:
@@ -37,7 +37,7 @@ def crawl_url(url, target_patterns):
         return [], [], []
 
 if __name__ == "__main__":
-    # Replace https://guns.lol/instagram with the URL you want to crawl
+    # Replace 'https://guns.lol/instagram' with the URL you want to crawl
     base_url =' 'https://guns.lol/instagram'
     
     target_patterns = ['/download']
